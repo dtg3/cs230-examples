@@ -1,3 +1,7 @@
+# macOS junk files
+.DS_Store
+~*
+
 # C++ objects and libs
 *.slo
 *.lo
