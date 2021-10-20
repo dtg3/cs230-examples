@@ -1,6 +1,5 @@
-/* 
-    data-importer.cpp - interface to describe the functions required
-    for each of the classes that import rainfall data
+/*
+    csv_importer.cpp - concrete implementation of a DataImporter class
 */
 
 #include <iostream>
