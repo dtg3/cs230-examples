@@ -6,12 +6,14 @@
 #define DATA_IMPORTER_HPP
 
 #include <vector>
+#include <iostream>
 
 class DataImporter {
 
     public:
         // All classes that inherit from this interface must implement this function
         virtual std::vector<double> importData() const = 0;
+        virtual ~DataImporter() {}
 };
 
 #endif
